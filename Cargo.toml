@@ -10,11 +10,11 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sha2 = "0.8.0"
 snafu = "0.6.0"
-ssb-legacy-msg-data = { git="https://github.com/sunrise-choir/legacy-msg-data", version = "0.1.1" }
-ssb-legacy-msg = { git="https://github.com/sunrise-choir/ssb-legacy-msg", version = "0.1.2" }
-ssb-multiformats = {git="https://github.com/sunrise-choir/ssb-multiformats"}
-ssb-crypto = "0.1.3"
+ssb-legacy-msg-data = { git="https://github.com/leo-lb/legacy-msg-data", version = "0.1.1" }
+ssb-legacy-msg = { git="https://github.com/leo-lb/ssb-legacy-msg", version = "0.1.2" }
+ssb-multiformats = {git="https://github.com/leo-lb/ssb-multiformats"}
+ssb-crypto = { version = "0.1.4", git = "https://github.com/leo-lb/ssb-crypto" }
 
 [dev-dependencies]
-ssb-verify-signatures = {git = "https://github.com/sunrise-choir/ssb-verify-signatures", version = "1.0.0"}
-ssb-validate = {git = "https://github.com/sunrise-choir/ssb-validate", version = "1.0.0"}
+ssb-verify-signatures = {git = "https://github.com/leo-lb/ssb-verify-signatures", version = "1.0.0"}
+ssb-validate = {git = "https://github.com/leo-lb/ssb-validate", version = "1.0.0"}
